@@ -82,5 +82,7 @@ def print_menu():
     print('12 -Litres 2 pints')
     line = input('Make choice:')  # Use choose from keyboard
     return line
-    if name == 'main':
+
+
+if __name__ == '__main__':
         main_func()
